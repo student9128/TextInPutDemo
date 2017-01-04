@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">TextInPutDemo</string>
+    <string name="user_name">User Name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="password_error">密码错误，不能少于6个字符</string>
+</resources>
