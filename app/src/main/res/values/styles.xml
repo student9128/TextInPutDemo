@@ -6,6 +6,10 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="colorControlNormal">@color/orange_500</item>
+        <!--<item name="colorControlActivated">@color/colorAccent</item>-->
+        <!--<item name="colorControlHighlight">@color/colorAccent</item>-->
     </style>
 <style name="counterOverflowTextColor" parent="Base.TextAppearance.AppCompat.Widget.PopupMenu.Small">
     <item name="android:textColor">@color/purple_500</item>
