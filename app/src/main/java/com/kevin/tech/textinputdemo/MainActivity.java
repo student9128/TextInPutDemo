@@ -55,7 +55,8 @@ public class MainActivity extends AppCompatActivity implements TextWatcher, View
         String passwordText = mPassword.getText().toString();
         if (!TextUtils.isEmpty(passwordText) && passwordText.length() < 6) {
             mTextInputPassword.setError(getString(R.string.password_error));
-            mPassword.setError(getString(R.string.password_error),getDrawable(R.mipmap.ic_launcher));//Call requires API level 21
+            mPassword.setError(getString(R.string.password_error));
+           // mPassword.setError(getString(R.string.password_error),getDrawable(R.mipmap.ic_launcher));//Call requires API level 21
         }
     }
 }
